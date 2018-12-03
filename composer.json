@@ -1,5 +1,5 @@
 {
-  "name": "magento-set/magento2-ce-patches",
+  "name": "magento/magento2ce-patches",
   "description": "Magento 2 patches",
   "type":"magento2-patches",
   "version": "2.2.3",
@@ -7,14 +7,14 @@
     "OSL-3.0",
     "AFL-3.0"
   ],
-  "repositories": [
-    {
-      "type": "composer",
-      "url": "https://repo.magento.com/"
+  "repositories": {
+    "path": {
+      "type": "git",
+      "url": "git@github.com:NadiyaS/magento2-patches-tool.git"
     }
-  ],
+  },
   "require": {
-    "magento-set/magento2-patches-tool": "dev-master"
+    "magento/magento2-patches-tool": "dev-master"
   },
   "minimum-stability": "dev",
   "extra": {
