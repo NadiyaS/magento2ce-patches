@@ -1,5 +1,5 @@
 {
-  "name": "magento/magento2ce-patches",
+  "name": "NadiyaS/magento2ce-patches",
   "description": "Magento 2 patches",
   "type":"magento2-patches",
   "version": "2.2.3",
@@ -14,7 +14,7 @@
     }
   },
   "require": {
-    "magento/magento2-patches-tool": "dev-master"
+    "NadiyaS/magento2-patches-tool": "dev-master"
   },
   "minimum-stability": "dev",
   "extra": {
