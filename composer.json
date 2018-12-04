@@ -1,5 +1,5 @@
 {
-  "name": "NadiyaS/magento2ce-patches",
+  "name": "nadiyas/magento2ce-patches",
   "description": "Magento 2 patches",
   "type":"magento2-patches",
   "version": "2.2.3",
@@ -10,11 +10,11 @@
   "repositories": {
     "path": {
       "type": "git",
-      "url": "git@github.com:NadiyaS/magento2-patches-tool.git"
+      "url": "git@github.com:nadiyas/magento2-patches-tool.git"
     }
   },
   "require": {
-    "NadiyaS/magento2-patches-tool": "dev-master"
+    "nadiyas/magento2-patches-tool": "dev-master"
   },
   "minimum-stability": "dev",
   "extra": {
