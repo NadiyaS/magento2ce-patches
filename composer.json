@@ -21,13 +21,6 @@
     "enable-patching": true,
     "patch-dir": "patches",
     "patches":{
-      "1": {
-        "name": "patch1"
-      },
-      "2": {
-        "name": "patch2",
-        "after": 1
-      }
     }
   }
 }
