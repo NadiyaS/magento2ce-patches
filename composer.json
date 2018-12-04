@@ -21,6 +21,13 @@
     "enable-patching": true,
     "patch-dir": "patches",
     "patches":{
+      "1": {
+        "name": "patch1"
+      },
+      "2": {
+        "name": "adminNotification",
+        "after": 1
+      }
     }
   }
 }
